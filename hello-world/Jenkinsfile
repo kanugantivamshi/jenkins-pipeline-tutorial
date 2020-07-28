@@ -11,11 +11,6 @@ pipeline {
                 echo 'Compile the source code' 
             }
         }
-	stage('Security Check') {
-            steps {
-                echo 'Run the security check against the application'
-            }
-        }
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
